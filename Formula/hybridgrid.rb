@@ -11,22 +11,22 @@ class Hybridgrid < Formula
   on_macos do
     on_intel do
       url "https://github.com/hybrid-grid/hybridgrid/releases/download/v0.1.0/hybridgrid_0.1.0_darwin_amd64.tar.gz"
-      sha256 "fc299047aa717f1ee3fb82cf2fbc1b1e3047a628d6c11c1b0a1c20d7fd1dae1e"
+      sha256 "3d3c218b1878e479a87bfff7322661a49a5ce0b5d13d78cf2732eae007f9f735"
     end
     on_arm do
       url "https://github.com/hybrid-grid/hybridgrid/releases/download/v0.1.0/hybridgrid_0.1.0_darwin_arm64.tar.gz"
-      sha256 "ef09cad4169ab21429c8badf52f44e92f59c8922cb04c1d7c8947533a2eb34d1"
+      sha256 "35e3ecb7edf5da1786cb0ac1e121bf3c4563aa99e8e22b369ca13deea9b44490"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/hybrid-grid/hybridgrid/releases/download/v0.1.0/hybridgrid_0.1.0_linux_amd64.tar.gz"
-      sha256 "46fda3827cc255384096ddeba5d461f0e1643f7e4d51d0be39cca17a90d3fe56"
+      sha256 "f46663c94dfe0552326dadf1c189eaff39b5265a8e0591b60032140dfb437b42"
     end
     on_arm do
       url "https://github.com/hybrid-grid/hybridgrid/releases/download/v0.1.0/hybridgrid_0.1.0_linux_arm64.tar.gz"
-      sha256 "3c63007fc373d8556c0a845366bd0e16eee837225bbca5d2b64274c3257d8773"
+      sha256 "271baafbcc51caba9a1c776521bb3a0072e466a29609b5b7457c265c03b37319"
     end
   end
 
